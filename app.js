@@ -57,9 +57,9 @@ document.addEventListener("DOMContentLoaded", () => {
   function createBoard() {
     for (let i = 0; i < cardArray.length; i++) {
       var card = document.createElement("img");
-      card.setAttribute("src", "images/blue.png");
+      card.setAttribute("src", "images/blank.jpg.png");
       card.setAttribute("data-id", i);
-      // card.addEventListener('click', flipcard)
+      // card.addEventListener('click', flipCard)
       grid.appendChild(card);
     }
   }
